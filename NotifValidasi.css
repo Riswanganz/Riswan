@@ -1,0 +1,41 @@
+.modal {
+            display: none; /* Hidden by default */
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            position: fixed;
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            padding-top: 100px;
+            text-align: center;
+          z-index: 999;
+          backdrop-filter: blur(10px);
+        }
+        .modal-content {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .modal .icon {
+            font-size: 50px;
+            color: red;
+        }
+        .modal h1 {
+            font-size: 24px;
+            margin: 20px 0;
+            color: #333;
+        }
+        .modal p {
+            font-size: 16px;
+            color: #666;
+            margin: 10px 0;
+        }
+        .modal a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
